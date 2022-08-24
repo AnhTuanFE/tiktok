@@ -1,12 +1,15 @@
 {
-    "plugins": [
-      ["module-resolver", {
+  "plugins": [
+    [
+      "module-resolver",
+      {
         // "root": ["./src"],
         "alias": {
-        //   "test": "./test",
+          //   "test": "./test",
           "~": "./src"
-        //   "underscore": "lodash"
+          //   "underscore": "lodash"
         }
-      }]
+      }
     ]
-  }
+  ]
+}
